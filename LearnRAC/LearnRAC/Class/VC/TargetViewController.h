@@ -1,5 +1,5 @@
 //
-//  ButtonViewController.h
+//  TargetViewController.h
 //  LearnRAC
 //
 //  Created by lufeng lin on 2017/9/27.
@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface ButtonViewController : BaseViewController
+@interface TargetViewController : BaseViewController
 
 @end

@@ -14,7 +14,7 @@
 		CC7E39D61F79F3D50029FF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7E39D41F79F3D50029FF69 /* LaunchScreen.storyboard */; };
 		CC7E39D91F79F3D50029FF69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E39D81F79F3D50029FF69 /* main.m */; };
 		CC9C50421F7B499B00A6D43A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C50411F7B499B00A6D43A /* BaseViewController.m */; };
-		CC9C50451F7B49D400A6D43A /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C50441F7B49D400A6D43A /* ButtonViewController.m */; };
+		CC9C50451F7B49D400A6D43A /* TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C50441F7B49D400A6D43A /* TargetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		CC7E39E21F79FE580029FF69 /* LearnRAC.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnRAC.pch; sourceTree = "<group>"; };
 		CC9C50401F7B499B00A6D43A /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		CC9C50411F7B499B00A6D43A /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		CC9C50431F7B49D400A6D43A /* ButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
-		CC9C50441F7B49D400A6D43A /* ButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		CC9C50431F7B49D400A6D43A /* TargetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetViewController.h; sourceTree = "<group>"; };
+		CC9C50441F7B49D400A6D43A /* TargetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetViewController.m; sourceTree = "<group>"; };
 		F5FECE6BD9C520EDC2B04760 /* Pods-LearnRAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnRAC/Pods-LearnRAC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,8 +122,8 @@
 		CC9C503F1F7B461000A6D43A /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				CC9C50431F7B49D400A6D43A /* ButtonViewController.h */,
-				CC9C50441F7B49D400A6D43A /* ButtonViewController.m */,
+				CC9C50431F7B49D400A6D43A /* TargetViewController.h */,
+				CC9C50441F7B49D400A6D43A /* TargetViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 				CC7E39CE1F79F3D50029FF69 /* ViewController.m in Sources */,
 				CC9C50421F7B499B00A6D43A /* BaseViewController.m in Sources */,
 				CC7E39D91F79F3D50029FF69 /* main.m in Sources */,
-				CC9C50451F7B49D400A6D43A /* ButtonViewController.m in Sources */,
+				CC9C50451F7B49D400A6D43A /* TargetViewController.m in Sources */,
 				CC7E39CB1F79F3D50029FF69 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,12 +392,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RFD58Y2U83;
+				DEVELOPMENT_TEAM = 8VN29RA82W;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LearnRAC.pch";
 				INFOPLIST_FILE = LearnRAC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nfyg.LearnRAC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfyg.LearnRAC1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -409,12 +409,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RFD58Y2U83;
+				DEVELOPMENT_TEAM = 8VN29RA82W;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LearnRAC.pch";
 				INFOPLIST_FILE = LearnRAC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nfyg.LearnRAC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfyg.LearnRAC1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
